@@ -1088,3 +1088,17 @@ footer a {
     transform: none;
   }
 }
+
+/* Additional case-study content follows the existing card and dialog styling. */
+.project-card .project-number + .project-copy {
+  padding-top: 52px;
+}
+.project-technologies {
+  margin: 18px 0;
+}
+.project-modal {
+  box-sizing: border-box;
+  max-height: calc(100dvh - 40px);
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+}
